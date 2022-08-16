@@ -1,5 +1,4 @@
-.h1
+body
 {
-    align:"center";
-    color:aqua;
+    background-color: rgba(213, 23, 23, 0.412);
 }
