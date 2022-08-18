@@ -7,35 +7,37 @@
     <meta name="author" content="Sai Hruthik Reddy Varakantham">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--We create the title of our Web page description-->
+    
+        <!--We create the title of our Web page description-->
     <title>Welcome to VSHReddy's Webpage</title>
 
-<!--We link our HTML< file to the CSS File-->
-    <link rel = "stylesheet", href = "style.css">
+    <!--We link our HTML< file to the CSS File-->
+        <link rel = "stylesheet", href = "style.css">
+    
+    </head>
 
-</head>
-<body>
-
-<!--Just the headup to create our title for our page-->
-
-    <h1 style="color:red;">
-        <center>
-            <b>
-                <i>I am Sai Hruthik Reddy Varakantham</i>
-            </b>
-            </center>
-            </h1>
-    <h2 style="color:rgb(128, 0, 0);">
-        <i>
-            <center>About Me</center>
-        </i>
-    </h2>
-
-    <div class="container">
-        <div class="img" href=""></div>
-        <a href="https://www.linkedin.com/in/saihruthikreddy-varakantham/"> 
-            <img src="Images/vshr.jpg" width = "300" height="300" style="float: left; margin-right: 10px;margin-bottom: 5px;padding: 2px ;">
-        </a>
+    <body>
+    
+        <div>
+            <span style="background-color:rgb(124, 124, 222);">
+            <div class="img" href=""></div>
+            <a href="https://www.linkedin.com/in/saihruthikreddy-varakantham/"> 
+                <img src="Images/vshr.jpg" width = "300" height="300" style="float: left; margin-right: 10px;margin-bottom: 5px;padding: 2px ;">
+            </a>
+    <!--Just the headup to create our title for our page-->
+    
+        <h1 style="color:red;">
+            <center>
+                <b>
+                    <i>I am Sai Hruthik Reddy Varakantham</i>
+                </b>
+                </center>
+                </h1>
+        <h2 style="color:rgb(128, 0, 0);">
+            <i>
+                <center>About Me</center>
+            </i>
+        </h2>
 
 
 <!--Writing more about me on the side of the image-->
@@ -54,16 +56,19 @@
 <p>
     I strongly believe process is more important than result and whichever role in Data Analytics I get into, I am ready to acquire knowledge by solving various business problems and add value to any organization I get into. You can know more about my expertise from my Resume and Github profile down below my Summary
 </p>
+    </span>
     </div>
+    <br>
     <hr>
 
 
+<!--Another Container is created for table-->
 <!--We describe our current semester time table in our second part of the webpage for our time table -->
-    
-<div>
-    <h2><center> My current available times</center></h2>
+ 
+<div class="container">
+    <h2> My Current Available Times</h2>
 
-    <table bgcolor="black" width="1050" align="center">
+    <table bgcolor="black" width="1050" margin-bottom:5px>
         <tr bgcolor="grey">
             <th width="150">Sunday</th>
             <th width="150">Monday</th>
@@ -86,5 +91,78 @@
     </table>
 </div>
 <hr>  
+
+<!--Creating our form to get input from the user-->
+<h3>We can get in touch...Please fill out the details and we will be good to meet</h3>
+<form>
+
+<!--creating first name text input box-->
+    <div>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" placeholder="Arnold">
+    </div>
+
+    <br>
+
+<!--creating last name text input box-->
+
+    <div>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" placeholder="Schwarzenegger">
+    </div>
+
+    <br>
+
+<!--creating email text input box-->
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="examples22@gmail.com">
+    </div>
+
+    <br>
+<!--creating Phone Type text input radio box-->
+
+    
+    <div>
+        <label for="Phone Type">Phone Type:</label>
+
+        <label>Mobile</label>
+        <input type="radio" id="Mobile" name="Phone Type" value="Mobile">
+
+        <label>Telephone</label>
+        <input type="radio" id="Telephone" name="Phone Type" value="Telephone">
+    </div>
+
+    <br>
+    <div>
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" placeholder="(012)345-6789">
+    </div>
+    <br>
+
+    
+<!--An text box to enter comments-->
+    <div>
+        <label for="comments--">Anything you want to add: </label>
+        <input type="text" id="comments--" placeholder="abcd....." height="100" width="100">
+    </div>
+
+<br>
+
+<!--button for reset-->
+    <div>
+        <input type="reset">
+    </div>
+
+    <br>
+
+<!--button for submit-->
+    <div>
+        <input type="submit">
+    </div>
+
+</form>
+
 </body>
 </html>
