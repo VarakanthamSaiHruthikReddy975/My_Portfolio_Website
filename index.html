@@ -17,12 +17,13 @@
     </head>
 
     <body>
-    <script src="Portfolio.js"></script>
+       
+    
         <div>
             <span style="background-color:rgb(124, 124, 222);">
             <div class="img" href=""></div>
             <a href="https://www.linkedin.com/in/saihruthikreddy-varakantham/"> 
-                <img src="Images/vshr.jpg" width = "300" height="300" style="float: left; margin-right: 10px;margin-bottom: 5px;padding: 2px ;">
+                <img src="vshr.jpg" width = "300" height="300" style="float: left; margin-right: 10px;margin-bottom: 5px;padding: 2px ;">
             </a>
     <!--Just the headup to create our title for our page-->
     
@@ -96,15 +97,19 @@
         <label for="fname">First Name: </label>
         <input type="text" id="fname" placeholder="Arnold">
     </div>
+        
+
 
     <br>
 
 <!--creating last name text input box-->
 
-    <div>
+    
+       <div>
         <label for="lname">Last Name: </label>
         <input type="text" id="lname" placeholder="Schwarzenegger">
-    </div>
+       </div>
+    
 
     <br>
 
@@ -114,12 +119,15 @@
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="examples22@gmail.com">
     </div>
+        
+    
 
     <br>
 <!--creating Phone Type text input radio box-->
 
     
-    <div>
+    
+       <div>
         <label for="Phone Type">Phone Type:</label>
 
         <label>Mobile</label>
@@ -127,37 +135,37 @@
 
         <label>Telephone</label>
         <input type="radio" id="Telephone" name="Phone Type" value="Telephone">
-    </div>
+       </div>
+    
 
     <br>
-    <div>
+    
         <label for="phone">Phone No:</label>
         <input type="tel" id="phone" placeholder="(012)345-6789">
-    </div>
+    
     <br>
 
     
 <!--An text box to enter comments-->
-    <div>
+    
+       <div>
         <label for="comments--">Anything you want to add: </label>
         <input type="text" id="comments--" placeholder="abcd....." height="100" width="100">
-    </div>
+    
+       </div>
 
 <br>
 
-<!--button for reset-->
-    <div>
-        <input type="reset">
-    </div>
-
-    <br>
 
 <!--button for submit-->
-    <div>
-        <input type="submit">
-    </div>
+    
+       <div>
+        <button type = "button" id="submitbutton">Submit</button>
+       </div>
+    
 
 </form>
-
+ <!--Here we link our javascript file to the html file-->
+ <script src="Portfolio.js"></script>
 </body>
 </html>
