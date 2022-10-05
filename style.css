@@ -74,6 +74,7 @@ body
     padding-right:10px;
 }
 
+
 .nav__links li a:hover{
     color: #0088a9;
 
@@ -91,6 +92,12 @@ button{
 
 button:hover{
     background-color: rgba(0,136,169,1);
+}
+
+#Virtual,#In-person, #meet
+{
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 
