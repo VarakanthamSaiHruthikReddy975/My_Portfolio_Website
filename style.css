@@ -10,7 +10,7 @@ li, a, button {
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     font: size 16px;
-    color: #1aacdd;
+    color: #dd1a2a; 
     text-decoration: none;
 }
 
@@ -19,12 +19,23 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+
+    /* setting Border attributes */
+    /* border-top-style: outset;
+    border-bottom-style:outset; */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    /* background-color: rgb(64, 64, 70); */
+    background-color: rgba(234, 16, 16, 0.311);
+
 }
 
 body
 {
     /* background-color: rgb(166, 166, 196); */
         background-color: rgba(28, 126, 46, 0.119); 
+        
 
 }
 
@@ -45,14 +56,19 @@ body
 }
 #mylogo
 {
-    width: 9%;
+    width: 100px;
     height:auto;
+    /* padding: left 130px; */
+    margin-left:-80px;
+    /* margin-right: -12px; */
 }
 
 .logo
 {
     cursor:pointer;
     /* margin-right:auto; */
+    /* margin-right:1px;
+    margin-left:100px; */
 }
 
 .nav__links
@@ -64,25 +80,26 @@ body
 {
     display:inline-block;
     /* padding: 0px 20 px; */
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .nav__links li a{
     transition: all 0.3s ease 0s;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-
 .nav__links li a:hover{
-    color: #0088a9;
+    color: #9ea900;
 
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    /* background-color: rgba(0,136,169,1); */
+    background-color: rgb(22, 19, 32);
+
     border: none;
     border-radius: 50px;
     cursor:pointer;
@@ -91,10 +108,10 @@ button{
 }
 
 button:hover{
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(245, 14, 14, 0.372);
 }
 
-#Virtual,#In-person, #meet
+#Virtual,#In-person,#meet
 {
     margin-left: 0px;
     margin-right: 10px;
