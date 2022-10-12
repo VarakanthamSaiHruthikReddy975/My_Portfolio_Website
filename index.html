@@ -9,7 +9,7 @@
 
     
     <!--We create the title of our Web page description-->
-    <title>Welcome to VSHReddy's Webpage</title>
+    <title>Welcome to VSHReddy's Portfolio</title>
 
     <!--We link our HTML< file to the CSS File-->
         <link rel = "stylesheet", href = "style.css">
@@ -19,16 +19,15 @@
     <body>
        
     <header>
-            <!--Adding the logo for our website-->
-
+        <!--Adding the logo for our website-->
         <img class="logo" src="logo3.jpg" alt="logo" id="mylogo">
 
         <!--Adding Nav bar to our website-->
         <nav>
             <ul class="nav__links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">Connect</a></li>
+                <li><a href="#h11">About</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#OnlineForm">Connect</a></li>
             </ul>
         </nav>
         <a class="cta" href="VSHR_SDE.docx" download><button>Download Resume</button></a>
@@ -71,25 +70,79 @@
     </span>
     </div>
     <br>
-    <hr>
+    <hr id="projects">
 
 
 <!--Another Container is created for table-->
 <!--We describe our current semester time table in our second part of the webpage for our time table -->
  
 <div class="container">
+<!--The Projects bodyline starts from here-->
+
     <!--My Projects-->
     <h2 id="myprojects"> <b>My Projects</b></h2>
-    <p id="project1"><a href="https://github.com/VarakanthamSaiHruthikReddy975/My_Portfolio_Website">Portfolio Website</a></p>
+    <!-- <p id="project1"><a href="https://github.com/VarakanthamSaiHruthikReddy975/My_Portfolio_Website">Portfolio Website</a></p> -->
 
+    <!--The first project Description-->
+
+   <div class="row">
+    <div id="firstwebsite" ><b>Portfolio Website - </b></div>
+    <div><a href="https://github.com/VarakanthamSaiHruthikReddy975/My_Portfolio_Website">View Source Code</a></div>
+    <div><a href="#">View Website</a></div>
+   </div>
+
+    <ul>
+        <li id="Proj1desc">
+            <p id="projectdescript">Created a portfolio website using HTML, CSS and JavaScript to demonstrate my skills in Web Development.</p>
+        </li>
+
+        <li id="Proj1desc">
+            <p>Developed the website by adding a few functionalities like hovering, linking websites to words, creating a form, etc</p>
+        </li>
+
+</ul>
+<br>
+<br>
+    <!--Second project description-->
+<div class="secondrow">
+    <div id="secondwebsite"><b>Restaurant Website- (Under Construction)</b></div>
+</div>
+
+<ul>
+    <li id="Proj2desc"><p>Trying to build a restaurant website using HTML, CSS and JavaScript.</p></li>
+</ul>
+
+
+<br>
+
+   <!--The third project description-->
+   <div class="row2">
+    <div id="thirdwebsite"><b>Project Intern - UI Health</b></div>
+   </div>
+
+   <ul id="thirdproject">
+    <li id="Proj3desc">
+        <p id="projectdescript3">Conducted interviews with the CIO and Business Intelligence Team to get insights on role of IT in digital transformation at UI Health.</p>
+    </li>
+
+    <li id="Proj3desc">
+        <p>Identified and recorded the challenges of EMR Migration and adoption of Telehealth by doctors.</p>
+    </li>
+
+    <li id="Proj3desc">
+        <p>Researched articles on IT Transformation at UI Health and hospitals around the world.</p>
+    </li>
+    <li id="Proj3desc">
+        <p>Delivered executive level presentations with wide range of visualizations based on the health care data, explained various the challenges faced by UI Health during the peak of COVID 19 transmission and how they tackled them</p>
+    </li>
+</ul>
 <br><br>
-<br>
-<br>
 </div>
 <hr>  
 
 <!--Creating our form to get input from the user-->
-<h3>We can get in touch...Please fill out the details and we will be good to meet</h3>
+<h2 id="OnlineForm">Online Form</h2>
+<h3 id="OnlineForm1">We can get in touch...Please fill out the details and we will be good to meet</h3>
 <form>
 
 <!--creating first name text input box-->
@@ -162,6 +215,10 @@
     
 
 </form>
+
+<hr>
+
+
  <!--Here we link our javascript file to the html file-->
  <script src="Portfolio.js"></script>
 </body>
