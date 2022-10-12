@@ -7,7 +7,7 @@
 } */
 
 li, a, button {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat",'Times New Roman', Times, serif;
     font-weight: 500;
     font: size 16px;
     color: #dd1a2a; 
@@ -35,6 +35,7 @@ body
 {
     /* background-color: rgb(166, 166, 196); */
         background-color: rgba(28, 126, 46, 0.119); 
+        background-image: "";
         
 
 }
@@ -91,7 +92,7 @@ body
 }
 
 .nav__links li a:hover{
-    color: #9ea900;
+    color: #0609eb;
 
 }
 
@@ -117,4 +118,28 @@ button:hover{
     margin-right: 10px;
 }
 
+.row
+{
+    white-space: nowrap;
+}
 
+.row > div {
+    width: 160px;
+    display:inline-block;
+    padding-left:-100px;
+
+}
+#Proj1desc, #Proj2desc, #Proj3desc
+{
+    color:black;
+}
+
+#firstwebsite, #secondwebsite, #thirdwebsite
+{
+    font-size:larger;
+}
+
+#OnlineForm1
+{
+    border:none;
+}
