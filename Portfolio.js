@@ -1,4 +1,12 @@
-window.alert("Hello Everyone, Thank You for clicking on my website, For more please click ok ");
+let username="";
+
+while(username=="")
+{
+    username = window.prompt("Enter your name");
+}
+document.getElementById("Usergreeting").innerHTML = "Hello "+username;
+
+
 let firstname
 document.getElementById("submitbutton").onclick=function()
 {
