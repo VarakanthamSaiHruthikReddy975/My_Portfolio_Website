@@ -1,10 +1,13 @@
-let username="";
-
-while(username=="")
+let username1 = "";
+while(username1==""|| username1==null)
 {
-    username = window.prompt("Enter your name");
+    username1 = window.prompt("Enter your name");
+    if(username1==""||username1==null)
+    {
+        window.alert("Enter a valid name");
+    }
 }
-document.getElementById("Usergreeting").innerHTML = "Hello "+username;
+document.getElementById("Usergreeting").innerHTML = "Hello "+username1;
 
 
 let firstname
