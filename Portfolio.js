@@ -20,8 +20,8 @@ document.getElementById("submitbutton").onclick=function()
 //Setting timeout near About Me 
 setTimeout(()=>{
     document.getElementById("change").innerHTML = "Me"
-},1000);
+},2000);
 
 setTimeout(()=>{
     document.getElementById("change").innerHTML = " My Academic Journey"
-},3000);
+},4000);
