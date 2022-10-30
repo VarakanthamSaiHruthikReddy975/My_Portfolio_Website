@@ -126,7 +126,16 @@ button:hover{
 .row > div {
     width: 160px;
     display:inline-block;
-    padding-left:-100px;
+}
+
+.row1
+{
+    white-space: nowrap;
+}
+
+.row1 > div {
+    width: 195px;
+    display:inline-block;
 
 }
 #Proj1desc, #Proj2desc, #Proj3desc
@@ -204,4 +213,8 @@ button:hover{
     margin-left: auto;
     margin-right: auto; */
     width: 55%;
+}
+.container2
+{
+    background-color: rgb(223, 240, 239);
 }
